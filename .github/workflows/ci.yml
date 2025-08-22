@@ -36,7 +36,7 @@ jobs:
       # 6 spaces
       with:
         # 8 spaces
-        dotnet-version: '6.0.x'
+        dotnet-version: '8.0.x'
 
     # 4 spaces, then a dash and a space
     - name: Restore dependencies

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cRMOSJulOQCUcv5e1PQgH8jcQlnUYr25QzOPo8+Uq1kwcwbkarhubLudZVCm9bucm/vZpa1+zpWnJd5E1KgIoA==",
+  "dgSpecHash": "Mz3/RuVe0/uGLA44ge2hz4Jf5uL95l+7HTmoc49pn6bi5yUXxk6hXKEBXb7XyuF7iFmnjvurgOj4nDEO4bXcsg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lenovo\\Desktop\\22Exam\\RevueCraftersSystem\\RevueCraftersSystem.csproj",
+  "projectFilePath": "C:\\Users\\Lenovo\\Exam22.08\\RevueCraftersSystem.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",

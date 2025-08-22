@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RevueCraftersSystem")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+073d8c87a8f84ba02e71be90456c98bfe64831e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("RevueCraftersSystem")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RevueCraftersSystem")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
