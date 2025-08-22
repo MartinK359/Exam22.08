@@ -1,0 +1,54 @@
+# 0 spaces
+name: CI Workflow
+
+# 0 spaces
+on:
+  # 2 spaces
+  push:
+    # 4 spaces
+    branches: [ main ]
+
+# 0 spaces
+jobs:
+  # 2 spaces
+  build-and-test:
+    # 4 spaces
+    runs-on: ubuntu-latest
+
+    # 4 spaces
+    env:
+      # 6 spaces
+      TEST_EMAIL: ${{ secrets.EMAIL }}
+      # 6 spaces
+      TEST_PASSWORD: ${{ secrets.PASSWORD }}
+
+    # 4 spaces
+    steps:
+    # 4 spaces, then a dash and a space
+    - name: Checkout repository
+      # 6 spaces
+      uses: actions/checkout@v3
+
+    # 4 spaces, then a dash and a space
+    - name: Setup .NET
+      # 6 spaces
+      uses: actions/setup-dotnet@v3
+      # 6 spaces
+      with:
+        # 8 spaces
+        dotnet-version: '6.0.x'
+
+    # 4 spaces, then a dash and a space
+    - name: Restore dependencies
+      # 6 spaces
+      run: dotnet restore
+
+    # 4 spaces, then a dash and a space
+    - name: Build
+      # 6 spaces
+      run: dotnet build --no-restore
+
+    # 4 spaces, then a dash and a space
+    - name: Run tests
+      # 6 spaces
+      run: dotnet test --no-build --verbosity normal
